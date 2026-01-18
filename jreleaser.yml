@@ -1,0 +1,23 @@
+project:
+  name: LoomGate
+  version: 1.0.0-SNAPSHOT
+  description: High-Performance Virtual Thread Proxy
+  longDescription: |
+    LoomGate is a lightweight, high-concurrency reverse proxy and load balancer written in pure Java 21+.
+  authors:
+    - Mohammed
+  license: MIT
+  links:
+    homepage: https://github.com/zrirak/LoomGate
+  java:
+    version: 21
+
+release:
+  github:
+    owner: zrirak
+    name: LoomGate
+
+distributions:
+  loomgate:
+    artifacts:
+      - path: target/LoomGate-{{projectVersion}}.jar
