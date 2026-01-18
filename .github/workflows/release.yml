@@ -22,7 +22,7 @@ jobs:
           cache: maven
 
       - name: Build with Maven
-        run: mvn -B package
+        run: mvn -B package install
 
       - name: Release with JReleaser
         env:
