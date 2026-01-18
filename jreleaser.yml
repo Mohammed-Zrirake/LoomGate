@@ -20,7 +20,7 @@ project:
 
 release:
   github:
-    owner: Mohammed-Zrirake
+    owner: zrirak
     name: LoomGate
     uploadAssets: ALWAYS
     overwrite: true
