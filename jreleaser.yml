@@ -9,14 +9,15 @@ project:
   license: MIT
   copyright: 2026 Mohammed
   links:
-    homepage: https://github.com/zrirak/LoomGate
+    homepage: https://github.com/Mohammed-Zrirake/LoomGate
   java:
     version: 21
 
 release:
   github:
-    owner: zrirak
+    owner: Mohammed-Zrirake
     name: LoomGate
+    uploadAssets: ALWAYS
 
 distributions:
   loomgate:
