@@ -12,6 +12,11 @@ project:
   languages:
     java:
       version: 21
+  # ADD THIS SECTION:
+  java:
+    groupId: com.Demo
+    artifactId: LoomGate
+    version: 1.0.0  # Change from SNAPSHOT
 
 release:
   github:
@@ -19,8 +24,12 @@ release:
     name: LoomGate
     uploadAssets: ALWAYS
     overwrite: true
+    # ADD THIS LINE:
+    skipRelease: false  # Explicitly enable releases
 
-distributions:
-  loomgate:
-    artifacts:
-      - path: target/LoomGate-{{projectVersion}}.jar
+# ADD THIS ENTIRE SECTION:
+signing:
+  active: NEVER  # Disable signing for simplicity
+
+deploy:
+  active: false  # Disable deploy for now
