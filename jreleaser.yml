@@ -12,11 +12,7 @@ project:
   languages:
     java:
       version: 21
-  # ADD THIS SECTION:
-  java:
-    groupId: com.Demo
-    artifactId: LoomGate
-    version: 1.0.0  # Change from SNAPSHOT
+
 
 release:
   github:
