@@ -10,14 +10,20 @@ project:
   copyright: 2026 Mohammed
   links:
     homepage: https://github.com/Mohammed-Zrirake/LoomGate
-  java:
-    version: 21
+  snapshot:
+    pattern: .*-SNAPSHOT
+    label: snapshot
+  languages:
+    java:
+      version: 21
 
 release:
   github:
     owner: Mohammed-Zrirake
     name: LoomGate
     uploadAssets: ALWAYS
+    skipRelease: true
+    skipTag: true
 
 distributions:
   loomgate:
